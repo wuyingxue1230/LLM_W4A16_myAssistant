@@ -73,7 +73,7 @@ class Model_center():
                 return "", chat_history
             try:
                 question = question.replace(" ", '')
-                response, history = self._prompt(question)
+                response = self._prompt(question)
                 chat_history.append((question, response))
                 return "", chat_history
             except Exception as e:
