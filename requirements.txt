@@ -1,0 +1,10 @@
+gradio==4.4.0
+transformers==4.34.0
+unstructured==0.10.30
+markdown==3.3.7
+tqdm
+jq
+openxlab
+huggingface_hub
+modelscope
+lmdeploy[all]==v0.1.0
