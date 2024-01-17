@@ -7,5 +7,5 @@ jq
 openxlab
 huggingface_hub
 modelscope
-lmdeploy
+lmdeploy==v0.1.0
 

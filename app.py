@@ -66,7 +66,8 @@ class Model_center():
                 input_ids=[input_ids]):
             res, tokens = outputs[0]
 
-        return self.tm_model.tokenizer.decode(res.tolist())
+        response = self.tm_model.tokenizer.decode(res.tolist())
+        return response
 
     def qa_answer(self, question: str, chat_history: list = []):
             if question == None or len(question) < 1:
